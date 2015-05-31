@@ -1,0 +1,47 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  color: #ddd;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand .a:visited {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse {
+  background-color: #006f7b;
+  border-color: #00373e;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #00373e;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #00373e;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #00373e;
+}
+
+.footer .achat-groupe-direct {
+  float: center;
+}
+.footer .W3CValidation {
+  float: right;
+}
+
