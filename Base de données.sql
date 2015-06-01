@@ -4,7 +4,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le: Lun 01 Juin 2015 à 20:15
+-- Généré le: Lun 01 Juin 2015 à 20:59
 -- Version du serveur: 10.0.11-MariaDB
 -- Version de PHP: 5.2.17
 
@@ -192,6 +192,14 @@ INSERT INTO `Avoir` (`Reference_Produit`, `ID_Critere`) VALUES
 ('AG7ALG7BFE27', 28),
 ('AG7ALG7BFE27', 29),
 ('AG7ALG7BFE27', 30),
+('AG7ALS4BFGU10', 2),
+('AG7ALS4BFGU10', 7),
+('AG7ALS4BFGU10', 14),
+('AG7ALS4BFGU10', 22),
+('AG7ALS4BFGU10', 47),
+('AG7ALS4BFGU10', 48),
+('AG7ALS4BFGU10', 49),
+('AG7ALS4BFGU10', 50),
 ('AG7LFBC', 5),
 ('AG7LFBC', 9),
 ('AG7LFBC', 37),
@@ -315,7 +323,7 @@ CREATE TABLE IF NOT EXISTS `Critere` (
   `Nom_Critere` varchar(30) COLLATE latin1_general_ci NOT NULL,
   `Valeur_Critere` varchar(30) COLLATE latin1_general_ci NOT NULL,
   PRIMARY KEY (`ID_Critere`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=47 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=51 ;
 
 --
 -- Contenu de la table `Critere`
@@ -367,7 +375,11 @@ INSERT INTO `Critere` (`ID_Critere`, `Nom_Critere`, `Valeur_Critere`) VALUES
 (43, 'Dimensions', '225 x 185 x 55 mm'),
 (44, 'Consommation', '30 W'),
 (45, 'Flux lumineux', '4000 Lm'),
-(46, 'Dimensions', '290 x 240 x 145 mm');
+(46, 'Dimensions', '290 x 240 x 145 mm'),
+(47, 'Consommation', '4 W'),
+(48, 'Diamètre / Hauteur', '6,5 / 5 cm'),
+(49, 'Faisceau de diffusion', '90°'),
+(50, 'Flux lumineux', '360 Lm');
 
 -- --------------------------------------------------------
 
